@@ -34,10 +34,13 @@ p {
     text-align: justify;
 }
 
-div p strong {
+div p strong,div li strong {
     color: rgb(210, 30, 129);
 }
 
+div p em {
+    color: cadetblue;
+}
 /* list */
 
 ul .principal {
