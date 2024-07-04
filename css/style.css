@@ -1,31 +1,68 @@
 body {
     font-family:"Times New Roman",sans-serif;
 }
+/* titles */
 
-h1 {
+#one {
     font-size: 30px; 
     text-align: center;
 }
-h2 {
-    font-size: 15px;
+
+.face{
+    font-size: 25px;
+    color:cadetblue;
+    background-color: chocolate;
+    font-weight: bold;
 }
 
-h1,h2{
+
+#one,h2{
     color: burlywood;
     background-color: brown;
     font-weight: bolder;
+    
+}
+
+h2 {
+    font-size: 15px; 
 }
 
 
-ul.principal {
+/* text */
+
+p {
+    text-align: justify;
+}
+
+div p strong {
+    color: rgb(210, 30, 129);
+}
+
+/* list */
+
+ul .principal {
     list-style-type: square;
     color: gray;
     text-align: left;
+}
+ul div.secondary{
+    list-style-type: armenian;
+    
+}
+
+ol div.secondary{
+    list-style-type: upper-roman;
 }
 
  li a{
     font-family: 'Courier New', Courier, monospace;
     font-size: larger;
 
+}
+
+/* images */
+img {
+    height: auto;
+    width: 250px;
 }
 
