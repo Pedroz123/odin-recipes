@@ -1,0 +1,31 @@
+body {
+    font-family:"Times New Roman",sans-serif;
+}
+
+h1 {
+    font-size: 30px; 
+    text-align: center;
+}
+h2 {
+    font-size: 15px;
+}
+
+h1,h2{
+    color: burlywood;
+    background-color: brown;
+    font-weight: bolder;
+}
+
+
+ul.principal {
+    list-style-type: square;
+    color: gray;
+    text-align: left;
+}
+
+ li a{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+
+}
+
