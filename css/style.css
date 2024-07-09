@@ -1,11 +1,26 @@
+/* Default settings */
+
+
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
+
 body {
     font-family:"Times New Roman",sans-serif;
+    background-color: darkgray;
 }
+
 /* titles */
 
 #one {
     font-size: 30px; 
+   
+    
+    padding: 16px;
     text-align: center;
+    margin: 0 0 10px 0;
+  
 }
 
 .face{
@@ -41,13 +56,26 @@ div p strong,div li strong {
 div p em {
     color: cadetblue;
 }
+
+
+
 /* list */
 
-ul .principal {
+ul.principal {
     list-style-type: square;
     color: gray;
-    text-align: left;
+
 }
+div.principal{
+    margin-top: 50px;
+    margin-left:  550px;
+    
+}
+/*
+    text-align: center;
+    padding: 20;
+    margin: auto; 
+    */
 ul div.secondary{
     list-style-type: armenian;
     
