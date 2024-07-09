@@ -14,13 +14,10 @@ body {
 /* titles */
 
 #one {
-    font-size: 30px; 
-   
-    
+    font-size: 30px;  
     padding: 16px;
     text-align: center;
-    margin: 0 0 10px 0;
-  
+    margin: 0 0 10px 0; 
 }
 
 .face{
@@ -28,18 +25,17 @@ body {
     color:cadetblue;
     background-color: chocolate;
     font-weight: bold;
-}
 
+}
 
 #one,h2{
     color: burlywood;
     background-color: brown;
-    font-weight: bolder;
-    
+    font-weight: bolder; 
 }
 
 h2 {
-    font-size: 15px; 
+    font-size: 20px; 
 }
 
 
@@ -57,7 +53,9 @@ div p em {
     color: cadetblue;
 }
 
-
+div p {
+    margin-left: 10px;
+}
 
 /* list */
 
@@ -71,11 +69,7 @@ div.principal{
     margin-left:  550px;
     
 }
-/*
-    text-align: center;
-    padding: 20;
-    margin: auto; 
-    */
+
 ul div.secondary{
     list-style-type: armenian;
     
@@ -93,7 +87,9 @@ ol div.secondary{
 
 /* images */
 img {
-    height: auto;
+    
     width: 250px;
 }
-
+.sameline {
+    display: inline-block;
+}
